@@ -32,7 +32,7 @@ include 'dados.php';
             <?php foreach($cardapio as $prato){?>
 
             <article>
-                <img src=<?= $prato['img']?> alt="taças chmpagne no natal">
+                <img src=<?= $prato['img']?> alt=<?= $prato['alternativo']?>>
                 <h1><?= $prato['nome']?></h1>
                 <p><?= $prato['descricao']?></p>
                 <button>ver mais</button>
